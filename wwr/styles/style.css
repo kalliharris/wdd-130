@@ -10,6 +10,24 @@ header{
     grid-template-columns: 150px auto;
     background-color: #E0E2DB;
 }
+.image-container {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;    
+}
+.image-container figure {
+    width: 100%;
+}
+.image-container figcaption {
+    text-align: center;
+    color: #022F40;
+}
+.image-container img{
+    width: 100%; 
+    object-fit: cover;  
+}
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -186,6 +204,7 @@ footer .social img {
 .container {
     justify-content: center;
 }
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
